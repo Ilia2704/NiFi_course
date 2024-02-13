@@ -1,0 +1,15 @@
+flows:
+  2f2de2e9-0494-4cdd-aff7-73a34c2cb6ca:
+    ver: 1
+    file: Extarct1CSV.snapshot
+    comments: ''
+    author: anonymous
+    created: 1707790955983
+    flowName: Extarct1CSV
+    flowDesc: "Produce CSV file contains currency exchange values for some period\n\
+      1. Create range of dates into initial period \n2. Use method GET to reply currency\
+      \ values as JSON from REST API\n3. Throw away everything unnecessary data\n\
+      4. Convert JSON for each day to CSV \n5. Merge all CSV files into entire one\n\
+      6. Put file on disk"
+layoutVer: 1
+bucketId: 8a4d32d6-5f90-407e-9412-9e7a43c4e785
