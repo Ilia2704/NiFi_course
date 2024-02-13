@@ -21,5 +21,14 @@ flows:
       \ values as JSON from REST API\n3. Throw away everything unnecessary data\n\
       4. Convert JSON for each day to CSV \n5. Merge all CSV files into entire one\n\
       6. Put file on disk"
+  79a74427-a875-48d7-84ad-69c3a39c6838:
+    ver: 1
+    file: CDC.snapshot
+    comments: Some fixing is demand to
+    author: anonymous
+    created: 1707791452168
+    flowName: CDC
+    flowDesc: "Change Data Capture\n1. Get binary logs from DB\n2. Route it depend\
+      \ on sort of action\n3. Gathering  \n4. Write to Logs"
 layoutVer: 1
 bucketId: a8ab36b4-8937-4163-8ebe-92484f95dff5
