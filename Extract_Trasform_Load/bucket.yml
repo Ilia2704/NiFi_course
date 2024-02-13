@@ -1,4 +1,14 @@
 flows:
+  ae5b9108-7ac3-4742-8a1e-87da105db07a:
+    ver: 1
+    file: CSV_to_SQL.snapshot
+    comments: Initial
+    author: anonymous
+    created: 1707791380299
+    flowName: CSV_to_SQL
+    flowDesc: "Put records from CSV to SQL database.\n1. Basic way - all of records\
+      \ is putting with one action\n2. Flexible way - each records is turning into\
+      \ JSON \nand putting separately "
   4183c1dc-758f-45b2-900e-87ab91f88415:
     ver: 1
     file: Extract_to_CSV.snapshot
