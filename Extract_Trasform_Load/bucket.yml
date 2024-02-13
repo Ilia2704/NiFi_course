@@ -1,0 +1,15 @@
+flows:
+  4183c1dc-758f-45b2-900e-87ab91f88415:
+    ver: 1
+    file: Extract_to_CSV.snapshot
+    comments: initial
+    author: anonymous
+    created: 1707791071558
+    flowName: Extract_to_CSV
+    flowDesc: "Produce CSV file contains currency exchange values for some period\n\
+      1. Create range of dates into initial period \n2. Use method GET to reply currency\
+      \ values as JSON from REST API\n3. Throw away everything unnecessary data\n\
+      4. Convert JSON for each day to CSV \n5. Merge all CSV files into entire one\n\
+      6. Put file on disk"
+layoutVer: 1
+bucketId: a8ab36b4-8937-4163-8ebe-92484f95dff5
