@@ -1,5 +1,8 @@
 flows:
   7b286623-8855-4031-a600-b4e02fe7771f: {ver: 1, file: Lab_1.snapshot, comments: '',
     author: anonymous, created: 1708042559072, flowName: Lab_1, flowDesc: ''}
+  da18b64f-7cf1-4bce-a225-9f20d3845997: {ver: 1, file: Simple_Flow.snapshot, comments: initial,
+    author: anonymous, created: 1708043070767, flowName: Simple_Flow, flowDesc: My
+      first flow}
 layoutVer: 1
 bucketId: 8a4d32d6-5f90-407e-9412-9e7a43c4e785
